@@ -1,0 +1,30 @@
+! ------------------------------------------------------------------------------
+! ROFI Arc Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+!                  					 bg         border   separator
+rofi.color-window: 					 #dd002b36, #002b36, #dd073642
+!                  					 bg         fg       altbg      hlbg       hlfg
+rofi.color-normal: 					 #dd002b36, #839496, #00002b36, #dd073642, #859900
+rofi.color-active: 					 #dd002b36, #268bd2, #00002b36, #dd073642, #268bd2
+rofi.color-urgent: 					 #dd002b36, #d33682, #00002b36, #dd073642, #d33682
+! Separator style (none, dash, solid)
+rofi.separator-style:                solid
+rofi.font: xos4 Terminus 9
+rofi.case-sensitive: false
+! "Parse known_hosts file for ssh mode" Set from: Default
+rofi.parse-known-hosts:              true
+! "Enable sidebar-mode" Set from: Default
+rofi.sidebar-mode:                   true
+! "Location on screen" Set from: Default
+rofi.location:                       2
+!"Terminal to use" Set from: Default
+rofi.terminal:                       terminator
+"Monitor id to show on" Set from: Default
+rofi.m:                              -1
+! "Window width" Set from: Default
+rofi.width:                          100
+! "Number of lines" Set from: Default
+rofi.lines:                          5
+"Threads to use for string matching" Set from: Default
+rofi.threads:                        0
